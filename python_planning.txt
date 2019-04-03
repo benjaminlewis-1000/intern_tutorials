@@ -1,0 +1,129 @@
+
+Slide
+-Why Python
+-Easy to learn
+-Default install on unix systems
+-Widely supported, lots of help. Stack overflow is your friend!
+-#1-#5 most popular language (depending on survey and metric)
+
+Slide
+What can you do?
+-So much!
+-Machine / Deep learning
+-Back-end web development
+-Multithreaded programs
+-Visualization
+-Data mining
+-Scripting
+-Interact with internet 
+-Database storage
+-Traditional computer vision 
+--And more!!
+-Lots and lots of packages to do lots of stuff. You don't have to re-invent the wheel. 
+
+Slide
+Things to know:
+-No explicit types
+-Whitespace defines the script
+-Interpreted not compiled
+
+Slide
+-Virtual environments (brief mention, since we'll be using singularity)
+-anaconda
+
+Slide
+-Installing packages (pip)
+--Specific version, if you know what you're doing 
+--Searching for packages
+--pip freeze -- get list of packages
+-Popular packages and what they're used for
+--numpy (np)
+--scikit
+--re (regexes are deep magic, but super useful. There are regex testers online)
+--math
+--OpenCV (cv2)
+--os
+--sys
+--shutil
+--random
+--Mention tf, torch 
+
+Slide 
+-Anatomy of Python scripts
+-shebang (#! /usr/bin/env python)
+-import statements  (import antigravity)
+--from __ import __ (bad form to import *)
+--import __ as __
+-comments
+-functionality
+-flow control (semicolon at end plus indents)
+--range()
+--if, for, while, break, continue, pass
+-Indentation levels (spaces and tabs are *not* the same -- want to set this in your editor.)
+-Passing command line arguments (sys.argv or argparse)
+-Backslash for carrying on a line
+
+Slide
+-Dictionaries
+-Lists, list comprehension
+-Sets
+-Tuples
+-Immutable vs mutable objects
+
+Slide
+-File handling - I/O
+
+Slide?
+-zip
+-filter
+-
+
+Slide
+-Basic CS:
+-Inheritance
+-Polymorphism
+-Encapsulation
+
+Slide
+-Basic debugging (we want to focus on terminal only, because that's what you have on cluster)
+--pdb -- I don't know about this much
+--IDE
+--python -i <script_name>. --Gotcha is that things must stay in scope.
+--'dir' command
+--command line python (for quick check of functionality). Gotcha -- no blank lines in a for statement.
+--lots of print statements (poor man's debugger)
+
+Slide
+-Classes
+-init function
+-class variable
+-No true "hidden" variables -- everything is accessible outside the class. Be careful
+-Set of functions that operate on the object
+-Lets us pack up a lot of functionality into one object
+
+Slide
+-packages (brief mention)
+-Lots of functions in one folder.
+-__init__.py in a folder to make a package
+
+Slide 
+-Importing self-defined classes
+
+Slide
+-function definition
+-def
+-arguments
+-return statement
+-Need to be defined before used (in a script -- not for a class)
+
+Slide
+-Naming conventions
+
+Slide 
+-Python 3.6 vs 2.7, and how to set that in your environment
+
+Slide:
+-Further info (docs.python.org)
+--Exceptions 
+--Error handling
+--Assert statements

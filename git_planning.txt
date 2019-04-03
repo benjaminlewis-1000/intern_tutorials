@@ -1,0 +1,88 @@
+Git tutorial.
+
+Slide 1
+What is Git? 
+-A Version control framework
+- Industry standard
+- Enables collaboration
+
+Slide 2
+Why use git
+- Picture of non-version control (v1, v1_1, v_final, etc) -- may have different edit dates, lots of comments
+- Act like a bookmark for code - you can checkpoint, develop more, etc.
+- Work on multiple computers and with many people
+- Complete copy of code resides on server and on all clients
+
+Slide
+-Uses: 
+- code
+- latex papers
+- NOT FOR DATA, in general. Hundreds of MB every time you clone repo - not good. 
+--Exceptions are not going to be used this summer, but there is a builtin for large file storage
+- Not for binaries - doesn't know how to do diff (or at least, requires additional setup). Can store a binary, but it copies everything
+
+Slide 
+- Branching - why we would want to use that
+- Graphic of branching
+- Good practice: only stable code in 'master'. (We'll settle for just checking code in)
+- Rebasing?
+
+Slide
+-Under the hood
+- Store diffs between files
+
+Slide
+-.gitignore file
+-.git/config
+-Anything else in .git?
+
+Slide
+-GitLab/GitHub online
+-See branches
+-See files
+-Other features of online?
+-Creating a project
+-Assigning collaborators
+--What are the roles - developer, maintainer, etc. 
+
+Slide
+-Commands you need to know
+-git branch
+-git push
+-git commit (-m)
+-git push
+-git pull
+-git add (-A :/)
+-git status   (xkcd comic)
+
+Slide
+-Setting up environment
+-git config global user.name
+-git config global user.email (something)
+-git branch in shell?
+
+Slide
+-Working with remote storage 
+-Pulling a repository (including from github)
+-Setting up a remote (the instructions are given after creating it on GitLab)
+
+Slide
+-Hard and fast rules
+--Pull before push
+--git add, git commit, git push
+
+Slide
+-Merging
+--I know how to do this in a text editor now (search for >>>>, =====, <<<< and edit accordingly.) It can also be done with a GUI tool, if you have it.  
+
+Slide 
+- Nice-to-have: branch tag in shell
+- git manager for Windows (won't use in ATR Center, just know it's there)
+- Git merge tools (todo: research)
+
+Slide
+-Further study:
+--submodules (I don't know about this)
+
+Slide
+-2-3 web sites with good information
