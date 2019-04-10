@@ -1,0 +1,39 @@
+AWS Planning
+
+(I can just talk to this)
+
+-Introduce both AWS and the WSU cluster
+-Talk about generating public/private key pair: 
+https://restricted.vdl.afrl.af.mil/programs/atrpedia/dist_c/wiki/Help:Tutorial_(ATRC_AWS)
+(Linux)
+#####################
+AWS_USER=firstInitialLastName
+VDL_email=Your_VDL_Email@vdl.com
+ssh-keygen -b 4096 -t rsa -C $VDL_email -f ~/.ssh/atrc17_$AWS_USER -q -N ""
+Send public key, ~/.ssh/atrc17_$AWS_USER.pub, to your mentor. 
+#####################
+(PuttyGen)
+#####################
+
+    If needed, download PuTTYgen from PuTTY download page. (PuTTYgen might have been installed previously with PuTTY)
+    Launch the program
+    Check to make sure type of key is RSA and number of bits is at least 4096
+    Click the Generate button.
+    Follow the instructions, Move mouse...
+    Set Key Comment to “Your VDL email address”
+    Enter a unique key passphrase in Key passphrase and Confirm passphrase fields. For additional information about using passphrases, see Log in with SSH Private Key on Windows.
+    Save the public and private keys by clicking the Save Public Key and Save Private Key buttons. A good place is in your .ssh folder.
+        Save the file with your ‘“User.Name” + “PublicAWSKey”’. Example:
+
+            eboettcher_PublicAWSKey
+            eboettcher_PrivateAWSKey
+
+    Email your mentor your public key file so that it can be added to the AWS environment.
+        You will receive a an address to connect to the AWS via SSH
+
+            Dist “A” account: eboettcher@34.225.202.112
+            Dist C account: eboettcher_C@11.123.11.1
+#####################
+
+-Logging in, including IP addresses
+-SSH config files
