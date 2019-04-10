@@ -1,5 +1,7 @@
 Git tutorial.
 
+https://restricted.vdl.afrl.af.mil/webdav/programs/atrpedia/Nontechnical_Materials/People/Rosencrantz_Stephen/ATRC%20Git%20Training.pdf
+
 Slide 1
 What is Git? 
 -A Version control framework
@@ -48,6 +50,7 @@ Slide
 Slide
 -Commands you need to know
 -git branch
+-git fetch
 -git push
 -git commit (-m)
 -git push

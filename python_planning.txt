@@ -63,6 +63,8 @@ Slide
 -Passing command line arguments (sys.argv or argparse)
 -Backslash for carrying on a line
 
+# None
+
 Slide
 -Dictionaries
 -Lists, list comprehension
