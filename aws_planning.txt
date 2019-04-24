@@ -36,4 +36,4 @@ Send public key, ~/.ssh/atrc17_$AWS_USER.pub, to your mentor.
 #####################
 
 -Logging in, including IP addresses
--SSH config files
+-SSH config files (~/.ssh/config)

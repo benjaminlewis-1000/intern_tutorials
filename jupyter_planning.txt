@@ -1,0 +1,12 @@
+Jupyter Planning
+
+-- How to get different kernels: 
+conda install nb_conda nb_conda_kernels
+conda install jupyter
+
+## Installing Anaconda
+- Download the binary from https://www.anaconda.com/distribution/#download-section
+- Install
+-- In linux, choose a directory to hold the install. I like a directory that starts with a '.anaconda'
+-- Run: conda install jupyter nb_conda nb_conda_kernels (This lets us use conda kernels in Jupyter)
+-- conda create --name python3_default python=3.4
